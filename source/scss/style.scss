@@ -129,7 +129,7 @@ header {
                     .li_link_last:after {
                         position: absolute;
                         content: '';
-                        background-image: url('/img/arrow.png');
+                        background-image: url('../../img/arrow.png');
                         background-repeat: no-repeat;
                         width: 20px;
                         height: 12px;
@@ -223,7 +223,7 @@ header {
         border-color: #E6E6ED;
         padding: 13px 10px;
         appearance: none;
-        background-image: url('/img/arrow.png');
+        background-image: url('../../img/arrow.png');
         background-repeat: no-repeat;
         background-position: right;
         color: $color_dark;
@@ -463,13 +463,13 @@ header {
         }
 
         .slick-arrow.slick-prev {
-            background: url('/img/previous.svg');
+            background: url('../../img/previous.svg');
             background-repeat: no-repeat;
             margin-right: 56px;
         }
 
         .slick-arrow.slick-next {
-            background: url('/img/next.svg');
+            background: url('../../img/next.svg');
             background-repeat: no-repeat;
             right: 10px;
         }

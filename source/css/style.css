@@ -89,7 +89,7 @@ header .logo_login nav .menu .menu_main .li_link_last:hover {
 header .logo_login nav .menu .menu_main .li_link_last:after {
   position: absolute;
   content: "";
-  background-image: url("/img/arrow.png");
+  background-image: url("../../img/arrow.png");
   background-repeat: no-repeat;
   width: 20px;
   height: 12px;
@@ -170,7 +170,7 @@ header .logo_login nav .m-menu {
   padding: 13px 10px;
   -webkit-appearance: none;
           appearance: none;
-  background-image: url("/img/arrow.png");
+  background-image: url("../../img/arrow.png");
   background-repeat: no-repeat;
   background-position: right;
   color: #45464B;
@@ -394,12 +394,12 @@ header .logo_login nav .m-menu {
   bottom: 0;
 }
 .main_slider .slider .slick-arrow.slick-prev {
-  background: url("/img/previous.svg");
+  background: url("../../img/previous.svg");
   background-repeat: no-repeat;
   margin-right: 56px;
 }
 .main_slider .slider .slick-arrow.slick-next {
-  background: url("/img/next.svg");
+  background: url("../../img/next.svg");
   background-repeat: no-repeat;
   right: 10px;
 }
