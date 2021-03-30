@@ -2,8 +2,8 @@ $(document).ready(function () {
     $('.slider').slick({
         dots: true,
         slidesToShow: 2,
-        autoplay: true,
-        autoplaySpeed: 2000,
+        // autoplay: true,
+        // autoplaySpeed: 2000,
         responsive: [
             {
                 breakpoint: 991,

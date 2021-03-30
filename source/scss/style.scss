@@ -440,6 +440,7 @@ header {
 
         .slick-list {
             overflow: hidden;
+            margin-right: -20px;
         }
 
         .slick-track {
@@ -471,7 +472,7 @@ header {
         }
 
         .slick-dots {
-            padding: 50px 12px 0 0;
+            padding-top: 50px;
             display: flex;
             justify-content: flex-end;
         }
@@ -496,11 +497,11 @@ header {
             background: $color_white;
             padding: 30px 30px;
             margin-right: 20px;
+            outline: none;
 
             .photo-name {
                 display: flex;
                 align-items: center;
-                margin-bottom: 20px;
 
                 .name {
                     margin: 0 0 0 20px;
@@ -518,6 +519,7 @@ header {
 
             .img_stars {
                 padding-top: 20px;
+                padding-bottom: 10px;
             }
 
             h6 {
@@ -712,6 +714,7 @@ header {
                     .tab_text {
                         padding: 30px;
                         background-color: $color_beige;
+                        height: 50%;
 
                         h3 {
                             color: $color_darkish;

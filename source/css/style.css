@@ -10,10 +10,7 @@ body {
 }
 
 * p {
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  margin-block-start: 0em;
-  margin-block-end: 0em;
+  margin: 0;
 }
 
 button:focus {
@@ -378,6 +375,7 @@ header .logo_login nav .m-menu {
 }
 .main_slider .slider .slick-list {
   overflow: hidden;
+  margin-right: -20px;
 }
 .main_slider .slider .slick-track {
   display: flex;
@@ -404,7 +402,7 @@ header .logo_login nav .m-menu {
   right: 10px;
 }
 .main_slider .slider .slick-dots {
-  padding: 50px 12px 0 0;
+  padding-top: 50px;
   display: flex;
   justify-content: flex-end;
 }
@@ -425,11 +423,11 @@ header .logo_login nav .m-menu {
   background: #fff;
   padding: 30px 30px;
   margin-right: 20px;
+  outline: none;
 }
 .main_slider .slider .slider_1 .photo-name {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
 }
 .main_slider .slider .slider_1 .photo-name .name {
   margin: 0 0 0 20px;
@@ -444,6 +442,7 @@ header .logo_login nav .m-menu {
 }
 .main_slider .slider .slider_1 .img_stars {
   padding-top: 20px;
+  padding-bottom: 10px;
 }
 .main_slider .slider .slider_1 h6 {
   font-size: 16px;
@@ -615,6 +614,7 @@ header .logo_login nav .m-menu {
 .stages .tabs .tabs-items .tabs-item.active .tab_img_text .tab_text {
   padding: 30px;
   background-color: #E9DAC4;
+  height: 50%;
 }
 .stages .tabs .tabs-items .tabs-item.active .tab_img_text .tab_text h3 {
   color: #17181E;
