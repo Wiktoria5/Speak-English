@@ -41,7 +41,14 @@ body {
     margin: 0;
 }
 
+input{
+    outline: none;
+}
 
+select{
+    outline: none;
+    border: none;
+}
 
 button:focus {
     outline: none;
